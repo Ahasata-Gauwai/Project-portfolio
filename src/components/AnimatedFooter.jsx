@@ -2,10 +2,10 @@ import { motion } from 'framer-motion';
 import { GitBranch, Network, MapPin } from 'lucide-react';
 
 const team = [
-  { name: 'D.M.L.C.B. Nadungamuwa', role: 'Full Stack Developer', github: 'https://github.com', linkedin: 'https://linkedin.com', img: 'https://ui-avatars.com/api/?name=DN&background=2D6A4F&color=fff' },
-  { name: 'M.P.D. Samaranayake', role: 'Backend Developer', github: 'https://github.com', linkedin: 'https://linkedin.com', img: 'https://ui-avatars.com/api/?name=MS&background=1B4332&color=fff' },
-  { name: 'G.A.N. Fernando', role: 'UI/UX Designer', github: 'https://github.com', linkedin: 'https://linkedin.com', img: 'https://ui-avatars.com/api/?name=GF&background=E9C46A&color=000' },
-  { name: 'H.M.B.B. Welivita', role: 'Frontend Developer', github: 'https://github.com', linkedin: 'https://linkedin.com', img: 'https://ui-avatars.com/api/?name=HW&background=F4A261&color=fff' },
+  { name: 'D.M.L.C.B. Nadungamuwa', role: 'Full Stack Developer', github: 'https://github.com/LavinduNadungamuwa', linkedin: 'https://www.linkedin.com/in/lavindu-nadungamuwa-007855263/', img: 'https://avatars.githubusercontent.com/u/166277337?v=4' },
+  { name: 'M.P.D. Samaranayake', role: 'Backend Developer', github: 'https://github.com/MPDSamaranayake', linkedin: 'https://www.linkedin.com/in/prasad-samaranayake-7b461b2ba/', img: 'https://avatars.githubusercontent.com/u/200643139?v=4' },
+  { name: 'G.A.N. Fernando', role: 'UI/UX Designer', github: 'https://github.com/ashmikan', linkedin: 'https://www.linkedin.com/in/ashmika-nathali/', img: 'https://avatars.githubusercontent.com/u/166277400?v=4' },
+  { name: 'H.M.B.B. Welivita', role: 'Frontend Developer', github: 'https://github.com/Bhagi2001', linkedin: 'https://www.linkedin.com/in/bhagya-welivita-550966302/', img: 'https://avatars.githubusercontent.com/u/166277461?v=4' },
 ];
 
 const AnimatedFooter = () => {
