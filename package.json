@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "pp",
+=======
+  "name": "project-portfolio",
+>>>>>>> a32013590e0282f13be6feb08045f35396f8288d
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +14,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@tailwindcss/vite": "^4.2.2",
     "framer-motion": "^12.38.0",
     "lucide-react": "^1.7.0",
@@ -17,6 +22,10 @@
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.14.0",
     "tailwindcss": "^4.2.2"
+=======
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+>>>>>>> a32013590e0282f13be6feb08045f35396f8288d
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
@@ -27,6 +36,10 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.4.0",
+<<<<<<< HEAD
     "vite": "^8.0.1"
+=======
+    "vite": "^8.0.4"
+>>>>>>> a32013590e0282f13be6feb08045f35396f8288d
   }
 }
