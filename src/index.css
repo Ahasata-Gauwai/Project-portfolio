@@ -1,3 +1,44 @@
+<<<<<<< HEAD
+@import "tailwindcss";
+
+@theme {
+  --color-jungle: #1D4ED8;
+  --color-forest: #172554;
+  --color-sand: #60A5FA;
+  --color-sunset: #2563EB;
+  --color-charcoal: #020617;
+}
+
+body {
+  @apply bg-charcoal text-white antialiased font-sans m-0 p-0 overflow-x-hidden;
+}
+
+/* Custom scrollbar for modern feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-charcoal);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-jungle);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sunset);
+}
+
+/* Glassmorphism utility classes */
+.glass-panel {
+  @apply bg-forest/30 backdrop-blur-md border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.1)];
+}
+
+.glass-card {
+  @apply bg-charcoal/40 backdrop-blur-lg border border-white/5 rounded-2xl;
+=======
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -108,4 +149,5 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+>>>>>>> a32013590e0282f13be6feb08045f35396f8288d
 }
