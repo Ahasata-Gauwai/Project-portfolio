@@ -1,9 +1,11 @@
-# Ahasata Gauwai Portfolio ✨
+<h1 align="center"> Ahasata Gauwai Portfolio ✨</h1>	
 
 <p>
   <strong>Interactive portfolio</strong> built with React and Vite.
   Explore the story through guided navigation, expandable documentation blocks, visual sections, diagrams, a UI showcase, a timeline, a gallery, and contact details.
 </p>
+
+---
 
 ## 🚀 Quick Start 
 
@@ -39,9 +41,13 @@ If you prefer the standard Vite workflow, the app runs at the default local deve
 
 </details>
 
+---
+
 ## 👀 Overview 
 
 This portfolio is built as a guided project narrative. Each section is its own component, so the page reads like an interactive case study rather than a static resume.
+
+---
 
 ## 🎯 Features 
 
@@ -50,6 +56,8 @@ This portfolio is built as a guided project narrative. Each section is its own c
 - Dedicated areas for diagrams, UI previews, gallery content, and contact information.
 - Animated footer and presentation-oriented visual styling.
 - Responsive Vite-based React app with modern dependency support.
+
+---
 
 ## 🧩 Sections 
 
@@ -72,6 +80,8 @@ This portfolio is built as a guided project narrative. Each section is its own c
 
 </details>
 
+---
+
 ## 🛠️ Tech Stack 
 
 <details>
@@ -86,6 +96,8 @@ This portfolio is built as a guided project narrative. Each section is its own c
 
 </details>
 
+---
+
 ## 🌱 Getting Started 
 <details open>
 <summary><strong>Development flow</strong> 🪄</summary>
@@ -95,6 +107,8 @@ This portfolio is built as a guided project narrative. Each section is its own c
 3. Open the local URL shown in the terminal.
 
 </details>
+
+---
 
 ## Scripts ▶️
 
@@ -107,6 +121,8 @@ This portfolio is built as a guided project narrative. Each section is its own c
 - `npm run lint` - run ESLint across the project.
 
 </details>
+
+---
 
 ## 🗂️ Project Structure 
 
@@ -133,6 +149,12 @@ src/
 		WorkflowSection.jsx
 ```
 
+---
+
 ## 🎨 Customization 
 
 To adapt the portfolio for another project, update the content inside the section components in `src/components/`, then adjust the page flow in `src/App.jsx` if you want to reorder or remove sections.
+
+---
+
+<h3 align="center">Thank You! 🧑‍💻 </h3>
