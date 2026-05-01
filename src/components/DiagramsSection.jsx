@@ -1,13 +1,18 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Maximize2, X } from 'lucide-react';
+import useCaseImage from '../assets/images/usecase.png';
+import erImage from '../assets/images/ER.png';
+import activityImage from '../assets/images/activity.png';
+import dfdLevel0Image from '../assets/images/DFD-L0.png';
+import dfdLevel1Image from '../assets/images/DFD-L1.png';
 
 const diagrams = [
-  { id: 'usecase', title: 'Use Case Diagram', image: 'https://images.unsplash.com/photo-1542626991-cbc4e32524cc?auto=format&fit=crop&q=80&w=800' }, // using placeholder tech images
-  { id: 'er', title: 'ER Diagram', image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800' },
-  { id: 'activity', title: 'Activity Diagram', image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800' },
-  { id: 'dfd0', title: 'DFD Level 0', image: 'https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=800' },
-  { id: 'dfd1', title: 'DFD Level 1', image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&q=80&w=800' },
+  { id: 'usecase', title: 'Use Case Diagram', image: useCaseImage },
+  { id: 'er', title: 'ER Diagram', image: erImage },
+  { id: 'activity', title: 'Activity Diagram', image: activityImage },
+  { id: 'dfd0', title: 'DFD Level 0', image: dfdLevel0Image },
+  { id: 'dfd1', title: 'DFD Level 1', image: dfdLevel1Image },
 ];
 
 const DiagramsSection = () => {
